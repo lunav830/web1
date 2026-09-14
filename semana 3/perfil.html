@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mi perfil Luna</title>
+ <meta name="description"
+       content="soy luna, me gusta aprender cosas nuevas,estudio la tecnologia en sistemas y estudio ingles">
+
+       <meta property="og:title" content="Perfil de Luna">
+       <meta property="og:description"
+           content="espero adquirir mucho conocimiento y ser una gran programadora.">
+       <meta property="og:type" content="website">
+       <meta property="og:url" content="https://miperfil.com/Luna">
+
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Luna villa </h1>
+        <p>Soy una estudiante de Tecnologia en Sistemas queriendo aprender y salir a trabajar de la programacion, la tecnologia y el ingles.</p>
+
+        <nav>
+            <a href="#sobre-mi">sobre mi</a>
+            <a href="#formacion">formacion</a>
+            <a href="#habilidades">habilidades</a>
+            <a href="#contacto">contacto</a>
+        </nav>
+
+    </header>
+
+    <main>
+        
+        <section id="sobre-mi">
+            <h2>sobre mi</h2>
+            <p>
+                Soy estudiante de la Tecnologia en Sistemas y por el momento aprendo aparte ingles,me gusta todo lo relacionado con la tecnologia
+                y espero seguir aprendiendo mas y llegar a un futuro mejor para mi y mi familia.
+            </p>
+
+            <figure>
+                <img src="luna.png" width="300"
+                    alt="Foto Luna">
+
+                <figcaption>
+                    Foto de perfil de Luna.
+                </figcaption>
+            </figure>
+        </section>
+
+
+         <section id="formacion">
+            <h2>Formación académica</h2>
+
+            <table border="1">
+
+                <caption>Mi formación académica</caption>
+
+                <thead>
+                    <tr>
+                        <th>Institución</th>
+                        <th>Título</th>
+                        <th>Año</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                   <tr>
+                        <td>Auxiliar de enfermeria</td>
+                        <td>Bachiller Académico</td>
+                        <td>2024</td>
+                    </tr>
+
+                <tr>
+                        <td>Universidad de Caldas</td>
+                        <td>Tecnologia en Sistemas</td>
+                        <td>En curso</td>
+                    </tr>
+
+                <tr>
+                        <td>smart</td>
+                        <td>Ingles-C1</td>
+                        <td>En curso</td>
+                    </tr>    
+
+                </tbody>
+
+            </table>
+        </section>
+
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+
+            <h3>Tecnologías que conozco</h3>
+
+            <ul>
+                <li>HTML</li>
+                <li>Java</li>
+                <li>MySQL</li>
+            
+            </ul>
+
+
+            <h3>Top 3 de cosas que quiero aprender este semestre</h3>
+
+            <ol>
+                <li>Desarrollar sin problemas en web con HTML, CSS y JavaScript</li>
+                <li>Mejorar mis conocimientos en todas las asignaturas</li>
+                <li>Aprender mejor los temas pasados</li>
+            </ol>
+        </section>
+
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+
+            <form action="#" method="post">
+
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        required
+                        minlength="3">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="correo">Correo electrónico:</label>
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="asunto">Asunto:</label>
+
+                    <select id="asunto" name="asunto" required>
+                        <option value="">Seleccione una opción</option>
+                        <option value="informacion">Solicitar información</option>
+                        <option value="proyecto">Propuesta de proyecto</option>
+                        <option value="contacto">Contacto general</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="mensaje">Mensaje:</label>
+
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        required
+                        minlength="10"
+                        rows="5"
+                        cols="40"></textarea>
+                </div>
+
+                <br>
+
+                <div>
+                    <input
+                        type="checkbox"
+                        id="aceptar-datos"
+                        name="aceptar-datos"
+                        required>
+
+                    <label for="aceptar-datos">
+                        Acepto el tratamiento de mis datos personales.
+                    </label>
+                </div>
+
+                <br>
+
+                <button type="submit">Enviar mensaje</button>
+
+            </form>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>Correo: lunavalen830@email.com</p>
+       
+    </footer>
+
+</body>
+</html>
