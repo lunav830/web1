@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tienda de productos</title>
+
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            MiTienda
+        </div>
+
+        <div class="buscador">
+            <input type="text" placeholder="Buscar productos...">
+        </div>
+
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Productos</a>
+            <a href="#">Carrito</a>
+        </nav>
+
+    </header>
+
+
+    <aside>
+
+        <h2>Filtros</h2>
+
+        <div class="grupo-filtro">
+
+            <h3>Categoría</h3>
+
+            <label>
+                <input type="checkbox">
+                Tecnología,maquillaje y regalos
+            </label>
+
+            <label>
+                <input type="checkbox">
+                regalos
+            </label>
+
+            <label>
+                <input type="checkbox">
+                Ropa
+            </label>
+
+        </div>
+
+
+        <div class="grupo-filtro">
+
+            <h3>Precio</h3>
+
+            <label for="minimo">Mínimo</label>
+            <input type="number" id="minimo" placeholder="$0">
+
+            <label for="maximo">Máximo</label>
+            <input type="number" id="maximo" placeholder="$500000">
+
+        </div>
+
+
+        <div class="grupo-filtro">
+
+            <h3>Ordenar por</h3>
+
+            <label>
+                <input type="radio" name="orden">
+                Menor precio
+            </label>
+
+            <label>
+                <input type="radio" name="orden">
+                Mayor precio
+            </label>
+
+            <label>
+                <input type="radio" name="orden">
+                Más recientes
+            </label>
+
+        </div>
+
+    </aside>
+
+
+    <main>
+
+        <h1>Resultados</h1>
+
+        <div class="grilla-productos">
+
+
+            <article class="tarjeta">
+
+                <img src="audifonos_inalambricos.jpg" alt="Producto 1">
+
+                <h2>Audífonos inalámbricos</h2>
+
+                <p>
+                    Audífonos cómodos con conexión Bluetooth y excelente sonido.
+                </p>
+
+                <span class="precio">$120.000</span>
+
+                <button>Ver producto</button>
+
+            </article>
+
+
+            <article class="tarjeta">
+
+                <img src="camara_sony.jpg" alt="Producto 2">
+
+                <h2>guarda tus mejores recuerdos con sony</h2>
+
+                <p>
+                    Camara digital con alta resolución para capturar momentos especiales.
+                </p>
+
+                <span class="precio">$480.000</span>
+
+                <button>Ver producto</button>
+
+            </article>
+
+
+            <article class="tarjeta">
+
+                <img src="tinta_labios.jpg" alt="Producto 3">
+
+                <h2>Tinta para labios</h2>
+
+                <p>
+                    Tinta de alta calidad para un look duradero y vibrante.
+                </p>
+
+                <span class="precio">$15.000</span>
+
+                <button>Ver producto</button>
+
+            </article>
+
+            
+                <img src="sombras_tierra.jpg" alt="Producto 4">
+
+                <h2>Sombras color tierra</h2>
+
+                <p>
+                     sombras para tu dia a dia,
+                </p>
+
+                <span class="precio">$60.000</span>
+
+                <button>Ver producto</button>
+
+            </article>
+
+
+            <article class="tarjeta">
+
+                <img src="sombras_clasicas.jpg" alt="Producto 4">
+
+                <h2>Sombras clásicas</h2>
+
+                <p>
+                    Sombras para un look clásico y elegante.
+                </p>
+
+                <span class="precio">$50.000</span>
+
+                <button>Ver producto</button>
+
+
+
+            </article>
+
+                <img src="rubores_iluminadores.jpg" alt="Producto 4">
+
+                <h2>Rubores e iluminadores</h2>
+
+                <p>
+                    rubores e iluminadores para resaltar tu belleza natural.
+                </p>
+
+                <span class="precio">$500.000</span>
+
+                <button>Ver producto</button>
+
+            </article>
+
+
+            <article class="tarjeta">
+
+                <img src="rubores_color_tierra.jpg" alt="Producto 5">
+
+                <h2>Rubores color tierra</h2>
+
+                <p>
+                    Rubores para un look natural y suave.
+                </p>
+
+                <span class="precio">$50.000</span>
+
+                <button>Ver producto</button>
+
+            </article>
+
+
+            <article class="tarjeta">
+
+                <img src="maquillaje_completo.jpg" alt="Producto 4">
+
+                <h2>combo de maquiilaje</h2>
+
+                <p>
+                    todo lo que necesitas lo encuentras aqui
+                </p>
+
+                <span class="precio">$165.000</span>
+
+                <button>Ver producto</button>
+
+            </article>
+
+
+            <article class="tarjeta">
+
+                <img src="lirio_blanco.jpg" alt="Producto 6">
+
+                <h2>Lirio blanco</h2>
+
+                <p>
+                    para iluminar el corazon de tu amada
+                </p>
+
+                <span class="precio">$25.000</span>
+
+                <button>Ver producto</button>
+
+            </article>
+
+
+            <article class="tarjeta">
+
+                <img src="labiales_mate.jpg" alt="Producto 7">
+
+                <h2>Labiales mate</h2>
+
+                <p>
+                    Labiales de larga duración con acabado mate.
+
+                </p>
+
+                <span class="precio">$20.000</span>
+
+                <button>Ver producto</button>
+
+            </article>
+
+
+            <article class="tarjeta">
+
+                <img src="iluminadores_en_paleta.jpg" alt="Producto 8">
+
+                <h2>Iluminadores en paleta</h2>
+
+                <p>
+                    Paleta con diversos iluminadores para crear looks deslumbrantes.
+                </p>
+
+                <span class="precio">$60.000</span>
+
+                <button>Ver producto</button>
+
+            </article>
+                </p>
+
+                <span class="precio">$55.000</span>
+
+                <button>Ver producto</button>
+
+            </article>
+
+
+            <article class="tarjeta">
+
+                <img src="girasol.jpg" alt="Producto 9">
+
+                <h2>girasol</h2>
+
+                <p>
+                    regalo para tu amada
+                </p>
+
+                <span class="precio">$15.000</span>
+
+                <button>Ver producto</button>
+
+            </article>
+
+
+            <article class="tarjeta">
+
+                <img src="gema_rubi.jpg" alt="Producto 10">
+
+                <h2>Gema rubí</h2>
+
+                <p>
+                    Gema de alta calidad con un brillo excepcional.
+                </p>
+
+                <span class="precio">$300.000</span>
+
+                <button>Ver producto</button>
+
+            </article>
+
+
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <div>
+            <h3>Información</h3>
+            <a href="#">Sobre nosotros</a>
+            <a href="#">Contacto</a>
+            <a href="#">Preguntas frecuentes</a>
+        </div>
+
+        <div>
+            <h3>Ayuda</h3>
+            <a href="#">Envíos</a>
+            <a href="#">Devoluciones</a>
+            <a href="#">Garantías</a>
+        </div>
+
+        <div>
+            <h3>Síguenos</h3>
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">TikTok</a>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
